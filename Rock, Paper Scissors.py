@@ -27,7 +27,7 @@ while True: #Infinite loop
             print("it's a tie! Equal points awarded.")
             cw+=1
             w+=1
-        elif x=='q':
+        elif x[0]=='q':
             #Scorecard
             print("You won against the computer",w,"times.")
             print("The computer won",cw,"times!")
