@@ -8,7 +8,7 @@ while True: #Infinite loop
     x=input("\nEnter Either Rock, Paper or Scissors (or q if you want to leave):").lower()
 
     #Removing invalid scenarios
-    if x[0]!='r' and x[0]!='p' and x[0]!='s' and x!='q':
+    if x[0]!='r' and x[0]!='p' and x[0]!='s' and x[0]!='q':
         print("Sorry, try once more.")
     #The win/loss can only be decided when a valid input has been provided by the user
     else:
