@@ -12,7 +12,7 @@ while True: #Infinite loop
         print("Sorry, try once more.")
     #The win/loss can only be decided when a valid input has been provided by the user
     else:
-        if x[0]!='q':
+        if x!='q':
             print("The computer chose",cpu,".")
         if x[0]=='r' and cpu=='Scissors':
             print("You won!")
@@ -27,7 +27,7 @@ while True: #Infinite loop
             print("it's a tie! Equal points awarded.")
             cw+=1
             w+=1
-        elif x[0]=='q':
+        elif x=='q':
             #Scorecard
             print("You won against the computer",w,"times.")
             print("The computer won",cw,"times!")
